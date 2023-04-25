@@ -9,7 +9,7 @@ Array.prototype.customMap = function (cb) {
     return result;
 };
 
-const num = [1, 2, 3];
+const num = [1, 2, 3, 4];
 
 
 
@@ -25,9 +25,17 @@ const num = [1, 2, 3];
 
 //Task 2
 
-const newNum = num.every(function (num) {
+// const newNum = num.every(function (num) {
 
-    return num < 5
+//     return num < 5
+// })
+
+// console.log(newNum);
+
+//Task 3
+
+const newNum = num.filter(function (num) {
+    return num % 2 == 0
 })
 
 console.log(newNum);
