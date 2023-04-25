@@ -1,13 +1,13 @@
-Array.prototype.customMap = function (cb) {
-    // `this` keyword points to the array itself
-    const result = [];
+// Array.prototype.customMap = function (cb) {
+//     // `this` keyword points to the array itself
+//     const result = [];
 
-    for (let i = 0; i < this.length; i++) {
-        result.push(cb(this[i], i, this));
-    }
+//     for (let i = 0; i < this.length; i++) {
+//         result.push(cb(this[i], i, this));
+//     }
 
-    return result;
-};
+//     return result;
+// };
 
 const num = [1, 2, 3, 4];
 
@@ -43,12 +43,17 @@ const num = [1, 2, 3, 4];
 
 //Task 4
 
-const pixels = [768, 562, 1440];
+// const pixels = [768, 562, 1440];
 
-const newNum = num.forEach(function () {
+// const newNum = num.forEach(function () {
 
 
-})
+// })
 
-console.log(pixels);
+// console.log(pixels);
 
+
+//Task 5 
+
+const newNum = num.includes(7)
+console.log(newNum);
