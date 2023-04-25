@@ -34,8 +34,21 @@ const num = [1, 2, 3, 4];
 
 //Task 3
 
-const newNum = num.filter(function (num) {
-    return num % 2 == 0
+
+// const newNum = num.filter(function (num) {
+//     return num % 2 == 0
+// })
+
+// console.log(newNum);
+
+//Task 4
+
+const pixels = [768, 562, 1440];
+
+const newNum = num.forEach(function () {
+
+
 })
 
-console.log(newNum);
+console.log(pixels);
+
